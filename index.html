@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbearia Vinil | Clube de assinatura em Santos - SP</title>
+<meta name="description" content="Assine um plano mensal e corte o cabelo ou faça a barba quantas vezes quiser. 3 unidades em Santos - SP.">
+<meta name="theme-color" content="#111612">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</head>
+<body id="top">
+
+<header class="hdr">
+  <a class="logo" href="#top" aria-label="Vinil">
+    <img src="./assets/img/logo-vinil.jpg" alt="Vinil" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <span class="logo-t">VINIL</span>
+  </a>
+  <nav id="nav" class="nav" aria-label="Principal">
+    <a href="#clube">O Clube</a><a href="#servicos">Serviços</a><a href="#unidades">Unidades</a><a href="#contato">Contato</a>
+  </nav>
+  <a class="btn btn-p btn-s" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar / Agendar</a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<section class="hero" style="--img:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=70')">
+  <div class="vinyl" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <p class="badge"><i data-lucide="clock"></i> Terça a Sábado: Das 9h às 20h (Unidades fechadas às segundas-feiras e Domingos)</p>
+    <h1>Conheça os <em>planos</em> da Vinil. Garanta o corte em dia o mês todo.</h1>
+    <p class="lead">Pague um valor fixo por mês e <strong>corte o cabelo ou faça a barba quantas vezes quiser</strong> nos dias do plano escolhido. Sem preocupação com preço a cada visita.</p>
+    <div class="ctas">
+      <a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Quero Assinar um Plano</a>
+      <a class="btn btn-o" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener">Agendar Corte Avulso</a>
+    </div>
+  </div>
+</section>
+
+<div class="cut"><span class="sc"></span></div>
+
+<section id="clube" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Clube de Assinatura Vinil</h2>
+    <p class="sub reveal">Cortes e barba ilimitados nos dias do seu plano. Escolha o que combina com a sua rotina.</p>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab on" role="tab" aria-selected="true" data-t="a">Terça a Sábado</button>
+      <button class="tab" role="tab" aria-selected="false" data-t="b">Terça e Quarta</button>
+    </div>
+
+    <div class="panel on" id="p-a" role="tabpanel">
+      <p class="call"><span class="seal">Liberdade Total · Mais Popular</span> Flexibilidade total, qualquer dia, qualquer hora. Seu estilo garantido!</p>
+      <div class="plans">
+        <article class="plan reveal"><h3>Plano Corte</h3><p class="price"><small>R$</small>129<sup>,99</sup><span>/mês</span></p><ul><li>Cortes ilimitados</li><li>Terça a Sábado</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+        <article class="plan reveal"><h3>Plano Barba</h3><p class="price"><small>R$</small>139<sup>,99</sup><span>/mês</span></p><ul><li>Barba ilimitada</li><li>Terça a Sábado</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+        <article class="plan feat reveal"><span class="rib">Melhor Custo-Benefício</span><h3>Plano Corte + Barba</h3><p class="price"><small>R$</small>229<sup>,99</sup><span>/mês</span></p><ul><li>Corte e barba ilimitados</li><li>Terça a Sábado</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+      </div>
+    </div>
+
+    <div class="panel" id="p-b" role="tabpanel">
+      <p class="call"><span class="seal">Economia Inteligente</span> Perfeito para quem já tem o rolê agendado na semana!</p>
+      <div class="plans">
+        <article class="plan"><h3>Plano Corte</h3><p class="price"><small>R$</small>109<sup>,99</sup><span>/mês</span></p><ul><li>Cortes ilimitados</li><li>Terça e Quarta</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+        <article class="plan"><h3>Plano Barba</h3><p class="price"><small>R$</small>119<sup>,99</sup><span>/mês</span></p><ul><li>Barba ilimitada</li><li>Terça e Quarta</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+        <article class="plan"><h3>Plano Corte + Barba</h3><p class="price"><small>R$</small>199<sup>,99</sup><span>/mês</span></p><ul><li>Corte e barba ilimitados</li><li>Terça e Quarta</li><li>Descontos em serviços extras</li></ul><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar Agora</a></article>
+      </div>
+    </div>
+
+    <p class="perk reveal"><i data-lucide="badge-percent"></i> Para assinantes dos nossos planos, oferecemos descontos exclusivos em nossos serviços extras!</p>
+  </div>
+</section>
+
+<div class="cut"><span class="sc"></span></div>
+
+<section id="servicos" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Serviços Exclusivos</h2>
+    <p class="sub reveal">Cuidados especiais para cabelo, barba e pele.</p>
+    <ul class="svc">
+      <li class="reveal"><i data-lucide="scan-face"></i>Visagismo</li>
+      <li class="reveal"><i data-lucide="wind"></i>Ozônio Terapia</li>
+      <li class="reveal"><i data-lucide="syringe"></i>Microagulhamento</li>
+      <li class="reveal"><i data-lucide="align-center"></i>Alinhamento Capilar</li>
+      <li class="reveal"><i data-lucide="trending-down"></i>Tratamento de Queda de Cabelo</li>
+      <li class="reveal"><i data-lucide="snowflake"></i>Tratamento de Caspa</li>
+      <li class="reveal"><i data-lucide="search"></i>Avaliação Capilar</li>
+      <li class="reveal"><i data-lucide="brush"></i>Pigmentação de Barba</li>
+      <li class="reveal"><i data-lucide="palette"></i>Tintura de Cabelo</li>
+      <li class="reveal"><i data-lucide="sparkles"></i>Selagem</li>
+      <li class="reveal"><i data-lucide="feather"></i>Depilação com Cera – Nariz e Ouvido</li>
+    </ul>
+    <div class="callout reveal"><p>Para assinantes dos nossos planos, oferecemos descontos em nossos serviços.</p><a class="btn btn-p" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Agendar Serviço</a></div>
+  </div>
+</section>
+
+<div class="cut"><span class="sc"></span></div>
+
+<section id="unidades" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Nossas Unidades</h2>
+    <p class="sub reveal">Três endereços em Santos, o mesmo padrão Vinil.</p>
+    <div class="units">
+      <article class="unit reveal"><iframe loading="lazy" title="Mapa Unidade Canal 4" src="https://maps.google.com/maps?q=Av.+Siqueira+Campos,+361+-+Embare,+Santos+-+SP&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe><div class="ub"><h3>Unidade Canal 4</h3><p>Av. Siqueira Campos, 361 - Embaré, Santos - SP</p><a class="tel" href="tel:+551333494597"><i data-lucide="phone"></i>(13) 3349-4597</a><div class="row"><a class="btn btn-o btn-s" href="https://wa.me/551333494597?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Canal%204)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><i data-lucide="message-circle"></i>WhatsApp</a><a class="btn btn-p btn-s" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Agendar</a></div></div></article>
+      <article class="unit reveal"><iframe loading="lazy" title="Mapa Unidade Canal 2" src="https://maps.google.com/maps?q=Av.+Bernardino+de+Campos,+441+-+Campo+Grande,+Santos+-+SP&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe><div class="ub"><h3>Unidade Canal 2</h3><p>Av. Bernardino de Campos, 441 - Campo Grande, Santos - SP</p><a class="tel" href="tel:+551332243760"><i data-lucide="phone"></i>(13) 3224-3760</a><div class="row"><a class="btn btn-o btn-s" href="https://wa.me/551332243760?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Canal%202)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><i data-lucide="message-circle"></i>WhatsApp</a><a class="btn btn-p btn-s" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Agendar</a></div></div></article>
+      <article class="unit reveal"><iframe loading="lazy" title="Mapa Unidade Ponta da Praia" src="https://maps.google.com/maps?q=Rua+Bassim+Nagib+Trabulsi,+162+-+Ponta+da+Praia,+Santos+-+SP&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe><div class="ub"><h3>Unidade Ponta da Praia</h3><p>Rua Bassim Nagib Trabulsi, 162 - Ponta da Praia, Santos - SP</p><a class="tel" href="tel:+551333859766"><i data-lucide="phone"></i>(13) 3385-9766</a><div class="row"><a class="btn btn-o btn-s" href="https://wa.me/551333859766?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Ponta%20da%20Praia)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><i data-lucide="message-circle"></i>WhatsApp</a><a class="btn btn-p btn-s" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Agendar</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="sec hours" style="--img:url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1400&q=70')">
+  <div class="wrap">
+    <div class="board reveal">
+      <h2>Horário de Funcionamento</h2>
+      <p class="days">Terça a Sábado</p>
+      <p class="time">Das 9h às 20h</p>
+      <p class="closed">Unidades fechadas às segundas-feiras e Domingos</p>
+    </div>
+  </div>
+</section>
+
+<footer class="ftr">
+  <span class="logo-t" style="display:block">VINIL</span>
+  <p>Barbearia Vinil · Santos - SP</p>
+  <p><a href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener">cashbarber.com.br/vinil</a></p>
+</footer>
+
+<div class="dock">
+  <button class="btn btn-o" id="wa-open" aria-haspopup="dialog"><i data-lucide="message-circle"></i><span>WhatsApp</span></button>
+  <a class="btn btn-p cta" href="https://cashbarber.com.br/vinil" target="_blank" rel="noopener"><i class="sc"></i>Assinar / Agendar</a>
+</div>
+
+<div class="modal" id="wa-modal" role="dialog" aria-modal="true" aria-label="Escolha a unidade" hidden>
+  <div class="mbox">
+    <button class="x" id="wa-close" aria-label="Fechar">×</button>
+    <h3>Falar com qual unidade?</h3>
+    <a href="https://wa.me/551333494597?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Canal%204)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Canal 4 <small>(13) 3349-4597</small></a>
+    <a href="https://wa.me/551332243760?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Canal%202)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Canal 2 <small>(13) 3224-3760</small></a>
+    <a href="https://wa.me/551333859766?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Barbearia%20Vinil%20(Unidade%20Ponta%20da%20Praia)%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Ponta da Praia <small>(13) 3385-9766</small></a>
+  </div>
+</div>
+</body>
+</html>
